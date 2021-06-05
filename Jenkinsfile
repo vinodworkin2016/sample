@@ -14,4 +14,8 @@ node
     
     stage 'execute_ansible'
     sh "echo ansible"
+    
+   stage 'approval'
+   input 'Do you want to processed'
+
 }
